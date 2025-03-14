@@ -1,0 +1,8 @@
+page:
+  script:
+    - echo "Deploying Site"
+  artifacts:
+    path:
+      - public
+  only:
+    - main
